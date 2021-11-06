@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+}
+
+header {
+  box-shadow: 0 3px 10px silver;
+  padding: 12px;
+  background-color: white;
+}
+
+header h1{
+  text-transform: none;
+  font-size: 48px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 12px;
+  font-weight: normal;
+}
+
+h1, button {
+  font-family: Losing Grip;
+  text-transform: uppercase;
+}
+
+button {
+  color: gray;
+  outline: none;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 25px;
+  user-select: none;
+}
+
+h1 {
+  color: #DE7034;
+  font-size: 36px;
+  text-align: center;
+}
+
+p, h2, h3, li {
+  color: gray;
+  font-family: Oswald;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:active {
+  opacity: 0.7;
+}
+
+footer {
+  border-top: 1px solid #f0f0f0;
+  margin-top: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cw {
+  color: white;
+}
+
+.f_icon {
+  width: 256px;
+  height: 256px;
+  background-image: url('assets/images/front_icon.svg');
+  background-size: cover;
+}
+
+.h_icon {
+  width: 72px;
+  height: 72px;
+  background-image: url('assets/images/front_icon.svg');
+  background-size: cover;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.f_bg {
+  background-color: #ca5f25;
+}
+
+.f_t {
+  opacity: 0.1;
+  background-image: url('assets/images/front_t.png');
+  background-repeat: repeat;
+}
+
+.b {
+  display: inline-block;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.m12 {
+  margin: 12px;
+}
+
+.f {
+  display: flex;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fc {
+  align-items: center;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.tc {
+  text-align: center;
+}
+
+.wf {
+  width: 100vw;
+}
+
+.hf {
+  height: 100vh;
+}
+
+.pt p, h2, h3, ul {
+  width: 80%;
+}
+
+@media (max-width:900px){
+  .f_icon {
+    width: 128px;
+    height: 128px;
+  }
+}

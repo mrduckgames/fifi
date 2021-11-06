@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Losing Grip';
+    src: url('LosingGrip-Regular.woff2') format('woff2'),
+        url('LosingGrip-Regular.woff') format('woff'),
+        url('LosingGrip-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Regular.woff2') format('woff2'),
+        url('Oswald-Regular.woff') format('woff'),
+        url('Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
